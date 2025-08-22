@@ -602,7 +602,7 @@
     </script>
 </head>
 <body>
-<!-- Header -->
+    <!-- Header -->
     <header>
         <div class="container">
             <nav class="nav">
@@ -623,7 +623,8 @@
             </div>
         </div>
     </section>
-<!-- Main Content -->
+
+    <!-- Main Content -->
     <main class="main-content">
         <!-- Pricing Section -->
         <section class="pricing" id="pricing">
@@ -714,7 +715,8 @@
                 </div>
             </div>
         </section>
-<!-- Features Section -->
+
+        <!-- Features Section -->
         <section class="features">
             <div class="container">
                 <h2 class="section-title">Everything You Need, Nothing You Don't</h2>
@@ -760,195 +762,65 @@
             </div>
         </section>
 
-        <!-- Email Signup Section -->
-<!-- Email Signup Section with Mailchimp & GA4 Tracking -->
-<section class="email-signup" id="signup">
-    <div class="container">
-        <h2>Ready to Replace Your Expensive Bookkeeper?</h2>
-        <p>We're launching soon and will notify you the moment we're ready. Signup today to secure your discount and get early access when we go live.</p>
-        
-        <!-- Mailchimp Embedded Form -->
-        <div id="mc_embed_signup">
-            <form action="https://book-keep.us10.list-manage.com/subscribe/post?u=1346ebb3b117d1e55ebc06240&amp;id=4b6ce0f812&amp;f_id=00b2cfe5f0" 
-                  method="post" 
-                  id="mc-embedded-subscribe-form" 
-                  name="mc-embedded-subscribe-form" 
-                  class="email-form validate" 
-                  target="_blank" 
-                  style="max-width: 500px; margin: 0 auto; display: flex; gap: 16px; flex-wrap: wrap;">
+        <!-- Email Signup Section with Mailchimp & GA4 Tracking -->
+        <section class="email-signup" id="signup">
+            <div class="container">
+                <h2>Ready to Replace Your Expensive Bookkeeper?</h2>
+                <p>We're launching soon and will notify you the moment we're ready. Signup today to secure your discount and get early access when we go live.</p>
                 
-                <div class="mc-field-group" style="flex: 1; min-width: 250px;">
-                    <input type="email" 
-                           value="" 
-                           name="EMAIL" 
-                           class="email-input required email" 
-                           id="mce-EMAIL" 
-                           placeholder="Enter your email address"
-                           required
-                           style="width: 100%; padding: 16px 20px; border: none; border-radius: 12px; font-size: 16px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);">
+                <!-- Mailchimp Embedded Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://book-keep.us10.list-manage.com/subscribe/post?u=1346ebb3b117d1e55ebc06240&amp;id=4b6ce0f812&amp;f_id=00b2cfe5f0" 
+                          method="post" 
+                          id="mc-embedded-subscribe-form" 
+                          name="mc-embedded-subscribe-form" 
+                          class="email-form validate" 
+                          target="_blank" 
+                          style="max-width: 500px; margin: 0 auto; display: flex; gap: 16px; flex-wrap: wrap;">
+                        
+                        <div class="mc-field-group" style="flex: 1; min-width: 250px;">
+                            <input type="email" 
+                                   value="" 
+                                   name="EMAIL" 
+                                   class="email-input required email" 
+                                   id="mce-EMAIL" 
+                                   placeholder="Enter your email address"
+                                   required
+                                   style="width: 100%; padding: 16px 20px; border: none; border-radius: 12px; font-size: 16px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);">
+                        </div>
+                        
+                        <!-- Hidden field to prevent spam -->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_1346ebb3b117d1e55ebc06240_4b6ce0f812" tabindex="-1" value="">
+                        </div>
+                        
+                        <div class="clear" style="min-width: 140px;">
+                            <input type="submit" 
+                                   value="Secure My Spot" 
+                                   name="subscribe" 
+                                   id="mc-embedded-subscribe" 
+                                   class="email-submit button"
+                                   style="padding: 16px 32px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; min-width: 140px; width: 100%;">
+                        </div>
+                    </form>
                 </div>
                 
-                <!-- Hidden field to prevent spam -->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="b_1346ebb3b117d1e55ebc06240_4b6ce0f812" tabindex="-1" value="">
+                <!-- Success/Error Messages -->
+                <div id="mce-responses" class="clear" style="margin-top: 20px;">
+                    <div class="response" id="mce-error-response" style="display:none; color: #ff6b6b; font-weight: 600;"></div>
+                    <div class="response" id="mce-success-response" style="display:none; color: #51cf66; font-weight: 600;"></div>
                 </div>
                 
-                <div class="clear" style="min-width: 140px;">
-                    <input type="submit" 
-                           value="Secure My Spot" 
-                           name="subscribe" 
-                           id="mc-embedded-subscribe" 
-                           class="email-submit button"
-                           style="padding: 16px 32px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; min-width: 140px; width: 100%;">
+                <div class="signup-benefits" style="margin-top: 40px; color: rgba(255, 255, 255, 0.8); font-size: 14px;">
+                    <span style="display: inline-block; margin: 0 20px;">✓ No spam, ever</span>
+                    <span style="display: inline-block; margin: 0 20px;">✓ Unsubscribe anytime</span>
+                    <span style="display: inline-block; margin: 0 20px;">✓ Early access guaranteed</span>
                 </div>
-            </form>
-        </div>
-        
-        <!-- Success/Error Messages -->
-        <div id="mce-responses" class="clear" style="margin-top: 20px;">
-            <div class="response" id="mce-error-response" style="display:none; color: #ff6b6b; font-weight: 600;"></div>
-            <div class="response" id="mce-success-response" style="display:none; color: #51cf66; font-weight: 600;"></div>
-        </div>
-        
-        <div class="signup-benefits" style="margin-top: 40px; color: rgba(255, 255, 255, 0.8); font-size: 14px;">
-            <span style="display: inline-block; margin: 0 20px;">✓ No spam, ever</span>
-            <span style="display: inline-block; margin: 0 20px;">✓ Unsubscribe anytime</span>
-            <span style="display: inline-block; margin: 0 20px;">✓ Early access guaranteed</span>
-        </div>
-    </div>
-</section>
-
-<!-- GA4 Event Tracking Script -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Track email input focus
-    const emailInput = document.getElementById('mce-EMAIL');
-    const submitButton = document.getElementById('mc-embedded-subscribe');
-    const heroCtaButton = document.querySelector('.hero-cta');
-    const form = document.getElementById('mc-embedded-subscribe-form');
-    
-    // Event 1: Email Input Focus (User starts engaging)
-    if (emailInput) {
-        emailInput.addEventListener('focus', function() {
-            gtag('event', 'email_input_focus', {
-                event_category: 'engagement',
-                event_label: 'early_access_form',
-                value: 1
-            });
-            console.log('GA4 Event: Email input focused');
-        });
-        
-        // Track when they start typing (even more engaged)
-        emailInput.addEventListener('input', function() {
-            if (this.value.length === 1) { // First character typed
-                gtag('event', 'email_input_start_typing', {
-                    event_category: 'engagement',
-                    event_label: 'early_access_form',
-                    value: 1
-                });
-                console.log('GA4 Event: Started typing email');
-            }
-        });
-    }
-    
-    // Event 2: Form Submission Attempt
-    if (form) {
-        form.addEventListener('submit', function(e) {
-            gtag('event', 'form_submit_attempt', {
-                event_category: 'conversion',
-                event_label: 'early_access_signup',
-                value: 1
-            });
-            console.log('GA4 Event: Form submission attempted');
-            
-            // Track email domain for insights
-            if (emailInput && emailInput.value) {
-                const emailDomain = emailInput.value.split('@')[1];
-                gtag('event', 'email_domain_signup', {
-                    event_category: 'user_data',
-                    event_label: emailDomain,
-                    value: 1
-                });
-            }
-        });
-    }
-    
-    // Event 3: Hero CTA Button Clicks
-    if (heroCtaButton) {
-        heroCtaButton.addEventListener('click', function(e) {
-            gtag('event', 'hero_cta_click', {
-                event_category: 'engagement',
-                event_label: 'secure_your_discount',
-                value: 1
-            });
-            console.log('GA4 Event: Hero CTA clicked');
-        });
-    }
-    
-    // Event 4: Track successful signups (Mailchimp callback)
-    // This monitors for Mailchimp's success message
-    const observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            if (mutation.type === 'childList') {
-                const successMessage = document.getElementById('mce-success-response');
-                if (successMessage && successMessage.style.display !== 'none' && successMessage.innerText.length > 0) {
-                    gtag('event', 'email_signup_success', {
-                        event_category: 'conversion',
-                        event_label: 'mailchimp_confirmed',
-                        value: 10 // Higher value for successful conversions
-                    });
-                    console.log('GA4 Event: Email signup successful!');
-                }
-            }
-        });
-    });
-    
-    // Start observing
-    const targetNode = document.getElementById('mce-responses');
-    if (targetNode) {
-        observer.observe(targetNode, { childList: true, subtree: true, attributes: true });
-    }
-});
-
-// Additional tracking for page scroll depth
-let maxScroll = 0;
-window.addEventListener('scroll', function() {
-    const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
-    
-    if (scrollPercent > maxScroll) {
-        maxScroll = scrollPercent;
-        
-        // Track scroll milestones
-        if (maxScroll >= 25 && maxScroll < 50) {
-            gtag('event', 'scroll_depth', {
-                event_category: 'engagement',
-                event_label: '25_percent',
-                value: 25
-            });
-        } else if (maxScroll >= 50 && maxScroll < 75) {
-            gtag('event', 'scroll_depth', {
-                event_category: 'engagement',
-                event_label: '50_percent',
-                value: 50
-            });
-        } else if (maxScroll >= 75 && maxScroll < 100) {
-            gtag('event', 'scroll_depth', {
-                event_category: 'engagement',
-                event_label: '75_percent',
-                value: 75
-            });
-        } else if (maxScroll >= 100) {
-            gtag('event', 'scroll_depth', {
-                event_category: 'engagement',
-                event_label: '100_percent',
-                value: 100
-            });
-        }
-    }
-});
-</script>       
+            </div>
+        </section>
     </main> 
-  <!-- Footer -->
+
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -959,8 +831,8 @@ window.addEventListener('scroll', function() {
                     <a href="#pricing">Pricing</a>
                     <a href="#features">Features</a>
                     <a href="mailto:support@book-keep.ai">Support</a>
-                    <a href="#privacy">Privacy</a>
-                    <a href="#terms">Terms</a>
+                    <a href="/privacy">Privacy</a>
+                    <a href="/terms">Terms</a>
                 </div>
                 
                 <div class="footer-bottom">
@@ -969,6 +841,136 @@ window.addEventListener('scroll', function() {
             </div>
         </div>
     </footer>
+
+    <!-- GA4 Event Tracking Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track email input focus
+            const emailInput = document.getElementById('mce-EMAIL');
+            const submitButton = document.getElementById('mc-embedded-subscribe');
+            const heroCtaButton = document.querySelector('.hero-cta');
+            const form = document.getElementById('mc-embedded-subscribe-form');
+            
+            // Event 1: Email Input Focus (User starts engaging)
+            if (emailInput) {
+                emailInput.addEventListener('focus', function() {
+                    gtag('event', 'email_input_focus', {
+                        event_category: 'engagement',
+                        event_label: 'early_access_form',
+                        value: 1
+                    });
+                    console.log('GA4 Event: Email input focused');
+                });
+                
+                // Track when they start typing (even more engaged)
+                emailInput.addEventListener('input', function() {
+                    if (this.value.length === 1) { // First character typed
+                        gtag('event', 'email_input_start_typing', {
+                            event_category: 'engagement',
+                            event_label: 'early_access_form',
+                            value: 1
+                        });
+                        console.log('GA4 Event: Started typing email');
+                    }
+                });
+            }
+            
+            // Event 2: Form Submission Attempt
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    gtag('event', 'form_submit_attempt', {
+                        event_category: 'conversion',
+                        event_label: 'early_access_signup',
+                        value: 1
+                    });
+                    console.log('GA4 Event: Form submission attempted');
+                    
+                    // Track email domain for insights
+                    if (emailInput && emailInput.value) {
+                        const emailDomain = emailInput.value.split('@')[1];
+                        gtag('event', 'email_domain_signup', {
+                            event_category: 'user_data',
+                            event_label: emailDomain,
+                            value: 1
+                        });
+                    }
+                });
+            }
+            
+            // Event 3: Hero CTA Button Clicks
+            if (heroCtaButton) {
+                heroCtaButton.addEventListener('click', function(e) {
+                    gtag('event', 'hero_cta_click', {
+                        event_category: 'engagement',
+                        event_label: 'secure_your_discount',
+                        value: 1
+                    });
+                    console.log('GA4 Event: Hero CTA clicked');
+                });
+            }
+            
+            // Event 4: Track successful signups (Mailchimp callback)
+            // This monitors for Mailchimp's success message
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'childList') {
+                        const successMessage = document.getElementById('mce-success-response');
+                        if (successMessage && successMessage.style.display !== 'none' && successMessage.innerText.length > 0) {
+                            gtag('event', 'email_signup_success', {
+                                event_category: 'conversion',
+                                event_label: 'mailchimp_confirmed',
+                                value: 10 // Higher value for successful conversions
+                            });
+                            console.log('GA4 Event: Email signup successful!');
+                        }
+                    }
+                });
+            });
+            
+            // Start observing
+            const targetNode = document.getElementById('mce-responses');
+            if (targetNode) {
+                observer.observe(targetNode, { childList: true, subtree: true, attributes: true });
+            }
+        });
+
+        // Additional tracking for page scroll depth
+        let maxScroll = 0;
+        window.addEventListener('scroll', function() {
+            const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+            
+            if (scrollPercent > maxScroll) {
+                maxScroll = scrollPercent;
+                
+                // Track scroll milestones
+                if (maxScroll >= 25 && maxScroll < 50) {
+                    gtag('event', 'scroll_depth', {
+                        event_category: 'engagement',
+                        event_label: '25_percent',
+                        value: 25
+                    });
+                } else if (maxScroll >= 50 && maxScroll < 75) {
+                    gtag('event', 'scroll_depth', {
+                        event_category: 'engagement',
+                        event_label: '50_percent',
+                        value: 50
+                    });
+                } else if (maxScroll >= 75 && maxScroll < 100) {
+                    gtag('event', 'scroll_depth', {
+                        event_category: 'engagement',
+                        event_label: '75_percent',
+                        value: 75
+                    });
+                } else if (maxScroll >= 100) {
+                    gtag('event', 'scroll_depth', {
+                        event_category: 'engagement',
+                        event_label: '100_percent',
+                        value: 100
+                    });
+                }
+            }
+        });
+    </script>
 
     <script>
         // Smooth fade-in animation on scroll
@@ -1005,12 +1007,12 @@ window.addEventListener('scroll', function() {
         });
 
         // Add loading state to form submission
-        const emailForm = document.querySelector('.email-form');
-        const submitButton = document.querySelector('.email-submit');
+        const emailForm = document.querySelector('#mc-embedded-subscribe-form');
+        const submitButton = document.querySelector('#mc-embedded-subscribe');
         
         if (emailForm && submitButton) {
             emailForm.addEventListener('submit', function(e) {
-                // This will be handled by ConvertKit
+                // This will be handled by Mailchimp
                 submitButton.textContent = 'Securing...';
                 submitButton.disabled = true;
             });
